@@ -1,1 +1,0 @@
-# ftype_front1

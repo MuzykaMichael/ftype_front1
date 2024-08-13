@@ -12,93 +12,85 @@
   <meta name="description" content="Splice content">
 </head>
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <ul class="header__nav-list">
-                <li class="header__nav-item">
-                    <a href="/" class="header__nav-link header__nav-link--logo">
-                        <img src="./assets/img/logo.png" loading="lazy" alt="logo">
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="/" class="header__nav-link">
-                        Sounds
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a class="header__nav-link">
-                        Skills
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="/" class="header__nav-link">
-                        Plugins
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="/" class="header__nav-link">
-                        Studio
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="/" class="header__nav-link">
-                        Community
-                    </a>
-                </li>
-                <li class="header__nav-item">
-                    <a href="/" class="header__nav-link">
-                        Blog
-                    </a>
-                </li>
-                <li href="/" class="header__nav-item">
-                    <a class="header__nav-link">
-                        Pricing
-                    </a>
-                </li>
-            </ul>
-            <div class="header__nav-controls">
-                    <button class="header__nav-btn header__nav-btn--login">
-                        Login
-                    </button>
-                    <button class="header__nav-btn header__nav-btn--signup">
-                        Sign up
-                    </button>
-            </div>
-        </nav>
-    </header>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link header__nav-link--logo">
+            <img src="./assets/img/logo.png" alt="logo" class="header__nav-logo">
+          </a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Sounds</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Skills</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Plugins</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Studio</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Community</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Blog</a>
+        </li>
+        <li class="header__nav-item">
+          <a href="#" class="header__nav-link">Pricing</a>
+        </li>
+      </ul>
 
-    <main class="main">
-        <section class="banner">
-            <p class="banner__text">
-                🤘 Get free Sounds when you start a trial & 4 months off a Sounds+ annual plan.
-            </p>
-            <button class="banner__btn">Click here</button>
-        </section>
+      <div class="header__nav-controls">
+        <button class="header__nav-btn header__nav-btn--login">Login</button>
+        <button class="header__nav-btn header__nav-btn--signup">Sign up</button>
+      </div>
+    </nav>
+  </header>
 
-        <section class="hero">
-            <div class="hero__section">
-                <h1 class="hero__section-headline">
-                    Step into the<br/>
-                    producer’s<br/>
-                    playground
-                </h1>
-                <p class="hero__section-description">
-                    Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.
-                </p>
-                <button class="hero__section-btn">
-                    Try free
-                </button>
-            </div>
-            <div class="hero__controls">
-                <p class="hero__controls-text">
-                    Learn more
-                </p>
-                <a href="/" class="hero__controls-link">
-                    <img class="hero__controls-link--icon" src="./assets/img/arrow_down.png" loading="lazy" alt="arrow_down"/>
-                </a>
-            </div>
-        </section>
-        <section class="categories">
+  <main class="main">
+    <section class="banner">
+      <p class="banner__text">🤘 Get free Sounds when you start a trial & 4 months off a Sounds+ annual plan.</p>
+
+      <button class="banner__btn">
+        Click here
+      </button>
+    </section>
+
+    <section class="hero">
+      <img
+          src="./assets/img/hero-background.png"
+          alt="hero-background"
+          class="hero__background"
+      >
+
+      <div class="container">
+        <h1 class="hero__title">Step into the producer’s playground</h1>
+
+        <p class="hero__subtitle">
+          Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.
+        </p>
+
+        <button class="hero__btn">
+          Try free
+        </button>
+
+        <div class="hero__more">
+          <p class="hero__more-text">Learn more</p>
+
+          <img
+            src="./assets/img/chevron-down.png"
+            alt="chevron-down"
+            class="hero__more-icon"
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+        <div class="category">
             <div class="categories__text">
                 <h3 class="categories__text-category">
                     Sounds
@@ -116,8 +108,8 @@
             <div class="categories__image">
                 <img src="./assets/img/sounds.png" loading="lazy" alt="Sounds"/>
             </div>
-        </section>
-        <section class="categories">
+        </div>
+        <div class="category">
             <div class="categories__image">
                 <img src="./assets/img/conexp.png" loading="lazy" alt="Connected Experience"/>
             </div>
@@ -135,8 +127,8 @@
 
                 </button>
             </div>
-        </section>
-        <section class="categories">
+        </div>
+        <div class="category">
             <div class="categories__text">
                 <h3 class="categories__text-category">
                     Gear
@@ -154,8 +146,8 @@
             <div class="categories__image">
                 <img src="./assets/img/gear.png" loading="lazy" alt="Gear"/>
             </div>
-            </section>
-            <section class="categories">
+            </div>
+            <div class="category">
                 <div class="categories__image">
                     <img src="./assets/img/technology.png" loading="lazy" alt="Technology"/>
                 </div>
@@ -173,8 +165,10 @@
                         Discover CoSo
                     </button>
                 </div>
-            </section>
-        </section>
-    </main>
+            </div>
+        </div>
+    </section>
+
+  </main>
 </body>
 </html>
