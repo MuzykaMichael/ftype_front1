@@ -152,10 +152,6 @@
     color: #FFFFFF;
   }
 
-  .hero__controls-link--icon {
-    display: absolute;
-  }
-
 
   .categories {
     padding: 96px 48px 0 48px;
@@ -165,12 +161,19 @@
     width: 100%;
     }
 
+
   .categories__text {
     display: flex;
     flex-direction: column;
     gap: 0px;
     color: #FFFFFF;
   }
+
+  .categories__text-right {
+    text-align: right;
+    align-items: flex-end;
+  }
+
   .categories__text-category {
     font-size: 12px;
     color: #A6A8AD;
@@ -185,6 +188,7 @@
 
   .categories__text-description {
     margin-bottom: 18px;
+    max-width: 441px;
   }
 
   .categories__text-btn {
@@ -196,7 +200,7 @@
   }
 
   .categories__image {
-    width: 580px;
+    max-width: 580px;
     height: 386px;
   }
 
