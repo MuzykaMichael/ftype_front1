@@ -165,19 +165,16 @@ button:hover {
 
 
 .category {
-  padding: 96px 48px 0 48px;
+  margin-top: 96px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   }
 
 
 .categories__text {
   display: flex;
   flex-direction: column;
-  gap: 0px;
-  color: #FFFFFF;
 }
 
 .categories__text-right {
@@ -188,17 +185,17 @@ button:hover {
 .categories__text-category {
   font-size: 12px;
   color: #A6A8AD;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
   text-transform: uppercase;
   }
 
 .categories__text-headline {
   font-size: 28px;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
 .categories__text-description {
-  margin-bottom: 18px;
+  padding-bottom: 18px;
   max-width: 441px;
 }
 
@@ -212,5 +209,4 @@ button:hover {
 
 .categories__image {
   max-width: 580px;
-  height: 386px;
 }
