@@ -255,3 +255,96 @@ button:hover {
   font-size: 14px;
   color: #767676;
 }
+
+
+.cta {
+  height: 728px;
+  padding-top: 283px;
+  padding-bottom: 288px;
+  background-image: 
+  url(../assets/img/cta_bg.png),
+  url(../assets/img/cta_bg.png);
+  background-position: 
+  left center,
+  right center;
+  background-size: 
+  33.33% cover,
+  66.67% cover;
+  background-repeat: no-repeat;
+}
+.cta__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 57px;
+}
+
+.cta__content-headline {
+  font-size: 54px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.cta__content-btn {
+  background: #0033FF;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.footer__nav {
+  margin-top: 48px;
+  margin-bottom: 60px;
+}
+
+.footer__nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.footer__nav-list li:first-child {
+  display: flex;
+  flex-direction: column;
+  max-width: 168px;
+  gap: 24px;
+}
+
+.footer__nav-item--first {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.footer__nav-item--first a:first-child {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 1px;
+}
+
+.footer__nav-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 140px;
+  gap: 11px;
+}
+
+.footer__nav-item a:first-child {
+  font-size: 20px;
+  margin-bottom: 1px;
+  color: #FFFFFF;
+}
+
+.footer__nav-link {
+  font-size: 12px;
+  color: #A6A8AD;
+}
+
+.footer__nav-info {
+  margin-top: 83px;
+  display: flex;
+  gap: 24px;
+}
+
+.footer__nav-info a:last-child {
+  margin-left: 6px;
+}
