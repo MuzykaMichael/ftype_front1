@@ -234,26 +234,24 @@ button:hover {
   flex-direction: column;
   border-radius: 8px;
   background-color: #F8F8F8;
-  justify-content: center;
-  max-width: 361px;
-  max-height: 453px;
+  justify-content: space-between;
+  padding: 32px 44px 32px 32px;
 }
 
+
 .reviews__cards-img {
-  padding: 32px 69px 30px 69px;
+  max-width: 223px;
+  margin: 0 auto 30px auto;
 }
 
 .reviews__cards-text {
   font-size: 20px;
   color: #000000;
   max-width: 285px;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  margin-bottom: 16px;
 }
 
 .reviews__cards-author {
   font-size: 14px;
   color: #767676;
-  padding-bottom: 32px;
-  padding-left: 32px;
 }
