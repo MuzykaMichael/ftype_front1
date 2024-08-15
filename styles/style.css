@@ -324,7 +324,7 @@ button:hover {
 .footer__nav-item {
   display: flex;
   flex-direction: column;
-  max-width: 140px;
+  max-width: calc((100%-520px)/6);
   gap: 11px;
 }
 
